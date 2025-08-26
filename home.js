@@ -64,7 +64,7 @@ document.getElementById("withdraw-btn").addEventListener('click', function (e) {
 function handleButtonTaggle(id) {
      const formBtns = document.getElementsByClassName('form-btn');
    for (const btn of formBtns) {
-        btn.classList.remove("border-[#0874f2] ", "bg-[#0874f20d]")
+        btn.classList.remove("border-[#0874f2]", "bg-[#0874f20d]")
         btn.classList.add("border-gray-300")
 
     }
